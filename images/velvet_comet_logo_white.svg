@@ -1,0 +1,44 @@
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Velvet Comet logo mark on white">
+  <defs>
+    <linearGradient id="vcGradient" x1="41.32%" y1="-8.68%" x2="58.68%" y2="108.68%">
+      <stop offset="0%" stop-color="#6c5cff"/>
+      <stop offset="100%" stop-color="#b86cff"/>
+    </linearGradient>
+    <radialGradient id="velvetGlow" cx="38%" cy="35%" r="64%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.88"/>
+      <stop offset="28%" stop-color="#d9d4ff" stop-opacity="0.55"/>
+      <stop offset="62%" stop-color="#8f64ff" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#6c5cff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softShadow" x="-35%" y="-35%" width="170%" height="170%">
+      <feDropShadow dx="0" dy="22" stdDeviation="30" flood-color="#6c5cff" flood-opacity="0.20"/>
+    </filter>
+    <filter id="blurTail" x="-40%" y="-60%" width="200%" height="220%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <clipPath id="orbClip"><circle cx="690" cy="560" r="185"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="1200" fill="#ffffff"/>
+
+  <g transform="rotate(-18 590 590)" opacity="0.98">
+    <path d="M173 673 C283 570, 414 500, 570 470 C492 520, 432 580, 385 645 C307 660, 239 673, 173 673Z" fill="url(#vcGradient)" opacity="0.24" filter="url(#blurTail)"/>
+    <path d="M118 690 C288 522, 470 425, 704 413 C600 476, 514 555, 448 651 C335 670, 223 685, 118 690Z" fill="url(#vcGradient)" opacity="0.82"/>
+    <path d="M263 734 C393 622, 540 555, 731 525 C659 584, 589 648, 534 720 C433 717, 342 720, 263 734Z" fill="url(#vcGradient)" opacity="0.34"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <circle cx="690" cy="560" r="185" fill="url(#vcGradient)"/>
+    <circle cx="690" cy="560" r="185" fill="url(#velvetGlow)"/>
+    <g clip-path="url(#orbClip)" opacity="0.48">
+      <path d="M531 628 C596 530, 675 464, 795 401" fill="none" stroke="#ffffff" stroke-width="26" stroke-linecap="round" opacity="0.28"/>
+      <path d="M575 708 C642 610, 730 540, 850 497" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" opacity="0.20"/>
+      <path d="M603 424 C677 499, 739 591, 768 724" fill="none" stroke="#4f43e8" stroke-width="18" stroke-linecap="round" opacity="0.19"/>
+    </g>
+    <ellipse cx="632" cy="486" rx="58" ry="31" transform="rotate(-28 632 486)" fill="#ffffff" opacity="0.52"/>
+  </g>
+
+  <path d="M869 362 C878 394, 894 410, 926 419 C894 428, 878 444, 869 476 C860 444, 844 428, 812 419 C844 410, 860 394, 869 362Z" fill="url(#vcGradient)" opacity="0.9"/>
+  <circle cx="344" cy="440" r="18" fill="url(#vcGradient)" opacity="0.55"/>
+  <circle cx="268" cy="531" r="10" fill="url(#vcGradient)" opacity="0.35"/>
+</svg>

@@ -1,0 +1,9 @@
+# internal notes / strategy (do not publish)
+README.md
+
+# dev/build scripts, temp renders and raw source backups (not part of the live site)
+_*.py
+_*.html
+_*.webp
+_*.png
+*_raw.png

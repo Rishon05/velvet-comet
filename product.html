@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Velvet Comet | Product</title>
+<meta name="description" content="Velvet Comet gadget details." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="images/velvet_comet_icon.svg" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="announce">Free UK delivery · 30-day returns · 12-month warranty</div>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="index.html" class="brand"><img class="brand-icon" src="images/velvet_comet_logo.svg" alt="" />Velvet <span>Comet</span></a>
+    <nav class="nav-links">
+      <a href="index.html">Shop</a>
+      <a href="index.html#products">All gadgets</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <button class="cart-btn" data-open-cart aria-label="Cart">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></svg>
+        <span class="cart-count" data-cart-count style="display:none">0</span>
+      </button>
+      <button class="nav-toggle" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<!-- product detail: rendered by store.js from ?id= -->
+<section>
+  <div class="container">
+    <div class="pdp" id="pdp"><!-- rendered --></div>
+  </div>
+</section>
+
+<section id="pdpExtra" style="background:var(--bg-soft);"><!-- features + specs rendered --></section>
+
+<!-- footer -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="brand" style="margin-bottom:12px;"><img class="brand-icon" src="images/velvet_comet_icon.svg" alt="" />Velvet <span>Comet</span></div>
+        <p>Future-grade gadgets, curated and shipped fast across the UK.</p>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <a href="index.html">All gadgets</a>
+      </div>
+      <div>
+        <h4>Help</h4>
+        <a href="contact.html">Contact us</a>
+        <a href="shipping-returns.html">Shipping &amp; returns</a>
+        <a href="privacy.html">Privacy policy</a>
+        <a href="terms.html">Terms</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Velvet Comet. All rights reserved.</span>
+      <span>Registered business name &amp; address go here.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="products.js"></script>
+<script src="store.js"></script>
+</body>
+</html>
