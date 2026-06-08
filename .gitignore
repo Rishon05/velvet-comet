@@ -1,5 +1,6 @@
 # internal notes / strategy (do not publish)
 README.md
+STRIPE-SETUP.md
 
 # dev/build scripts, temp renders and raw source backups (not part of the live site)
 _*.py
